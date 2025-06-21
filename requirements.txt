@@ -1,8 +1,19 @@
+# Core deep learning framework
 tensorflow==2.13.0
+
+# For loading the pretrained Vision Transformer (ViT) from TensorFlow Hub
 tensorflow-hub==0.13.0
+
+# Data manipulation and numerical computations
 pandas==2.1.4
 numpy==1.26.4
+
+# Data visualization
 matplotlib==3.8.4
-scikit-learn==1.4.2
 seaborn==0.13.2
+
+# Model evaluation utilities (e.g., train/test split, metrics)
+scikit-learn==1.4.2
+
+# For downloading the MIAS dataset via KaggleHub
 kagglehub==0.1.6
