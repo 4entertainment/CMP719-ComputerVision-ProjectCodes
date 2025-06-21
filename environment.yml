@@ -1,0 +1,16 @@
+name: cmp719-breast-cancer
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas=2.1.4
+  - numpy=1.26.4
+  - matplotlib=3.8.4
+  - seaborn=0.13.2
+  - scikit-learn=1.4.2
+  - pip
+  - pip:
+      - tensorflow==2.13.0
+      - tensorflow-hub==0.13.0
+      - kagglehub==0.1.6
