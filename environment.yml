@@ -3,12 +3,17 @@ channels:
   - defaults
   - conda-forge
 dependencies:
+  # Base Python version
   - python=3.10
+
+  # Core data science libraries
   - pandas=2.1.4
   - numpy=1.26.4
   - matplotlib=3.8.4
   - seaborn=0.13.2
   - scikit-learn=1.4.2
+
+  # Pip for additional packages
   - pip
   - pip:
       - tensorflow==2.13.0
