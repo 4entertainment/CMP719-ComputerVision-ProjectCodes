@@ -35,6 +35,30 @@ The goal is to identify the most effective architecture and quantify the diagnos
 - Recall
 - F1-Score (Weighted, Class-specific)
 
+## Project Structure
+
+The project is organized as follows:
+
+├── README.md # Project description, setup instructions, and usage guide
+├── requirements.txt # Python dependencies for pip-based installation
+├── environment.yml # Conda environment specification file
+│
+├── data_preprocess/ # Dataset preparation and preprocessing scripts
+│ ├── data_download.py # Downloads the MIAS dataset via KaggleHub
+│ └── data_preprocess.py # Applies image resizing, normalization, and data splitting
+│
+├── cnn_vit.py # Hybrid model combining CNN with Vision Transformer (ViT)
+├── densenet.py # DenseNet121-based classification model
+├── effinet.py # EfficientNetB0 implementation (best-performing model)
+├── resnet50.py # ResNet50-based model used as baseline
+
+Each script is modular, self-contained, and includes:
+- Descriptive comments and function-level docstrings  
+- Clearly defined training, validation, and evaluation sections  
+- TensorFlow-based model building pipelines
+
+The dataset preprocessing is standardized across all models to ensure fair comparisons.
+
 ---
 
 > This repository contains sample codes used for model training, evaluation, and analysis as submitted for the CMP719 final project.
