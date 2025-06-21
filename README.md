@@ -7,9 +7,11 @@
 
 ## Project Overview
 
-The early and accurate diagnosis of breast cancer from mammographic images continues to pose a significant challenge, particularly under limited data conditions. This study compares the effectiveness of a custom convolutional neural network (CNN) with two widely used transfer learning models, **VGG16** and **ResNet50**. It also explores a hybrid model that integrates CNN with a **Vision Transformer (ViT)**, as well as a standalone **EfficientNetB0** architecture.
+The early and accurate diagnosis of breast cancer from mammographic images continues to pose a significant challenge, particularly under limited data conditions.  
+This study compares the effectiveness of multiple deep learning architectures, including **ResNet50**, **DenseNet121**, a hybrid **CNN + Vision Transformer (ViT)** model, and a standalone **EfficientNetB0** network.
 
-All experiments were conducted on the **MIAS dataset**, consisting of 322 mammogram images from 161 patients. A standardized preprocessing pipeline was applied across all models. The evaluation is based on accuracy, precision, recall, and F1-score metrics.
+All experiments were conducted on the **MIAS dataset**, which consists of 322 mammogram images collected from 161 patients.  
+A standardized preprocessing pipeline was applied across all models. The evaluation is based on accuracy, precision, recall, and F1-score metrics.
 
 The goal is to identify the most effective architecture and quantify the diagnostic performance gains of a hybrid ViT-CNN configuration in a low-data setting.
 
