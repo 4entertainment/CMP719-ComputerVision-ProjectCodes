@@ -38,7 +38,7 @@ The goal is to identify the most effective architecture and quantify the diagnos
 ## Project Structure
 
 The project is organized as follows:
-
+```
 ├── README.md # Project description, setup instructions, and usage guide
 ├── requirements.txt # Python dependencies for pip-based installation
 ├── environment.yml # Conda environment specification file
@@ -51,7 +51,7 @@ The project is organized as follows:
 ├── densenet.py # DenseNet121-based classification model
 ├── effinet.py # EfficientNetB0 implementation (best-performing model)
 ├── resnet50.py # ResNet50-based model used as baseline
-
+```
 Each script is modular, self-contained, and includes:
 - Descriptive comments and function-level docstrings  
 - Clearly defined training, validation, and evaluation sections  
